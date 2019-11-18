@@ -1,0 +1,43 @@
+{
+	"steps": [
+		{
+			"id": "start",
+			"name": "Start",
+			"type": "start",
+			"x": 220,
+			"y": 90,
+			"uuid": 1,
+			"target": 5
+		},
+		{
+			"x": 220,
+			"y": 470,
+			"uuid": 4,
+			"file": "",
+			"id": "",
+			"name": "",
+			"target": "",
+			"type": "end"
+		},
+		{
+			"uuid": 5,
+			"file": "GetLastVersion.R",
+			"id": "GetLastVersion.R",
+			"name": "GetLastVersion.R",
+			"type": "rscript",
+			"x": 220,
+			"y": 200,
+			"target": 6
+		},
+		{
+			"uuid": 6,
+			"file": "result.pgui",
+			"id": "result",
+			"name": "result",
+			"type": "gui",
+			"x": 220,
+			"y": 340,
+			"target": 4
+		}
+	]
+}

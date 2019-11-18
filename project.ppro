@@ -1,0 +1,34 @@
+{
+	"start": "main.pseq",
+	"name": "Get Project Version",
+	"company": "PGM Solutions",
+	"description": "Get the last version as entered in the changelog of a project.",
+	"wd": "program",
+	"logo": "",
+	"css": "",
+	"list": "hide",
+	"rconsole": "r",
+	"outputfolder": "{{name}}_{{datetime}}",
+	"history": [
+		{
+			"date": "18/11/2019",
+			"version": "1.3",
+			"author": "William",
+			"changelog": "Last version"
+		},
+		{
+			"date": "12/11/2019",
+			"version": "1.2",
+			"author": "Feta",
+			"changelog": "Edit"
+		},
+		{
+			"date": "01/11/2019",
+			"version": "1.2",
+			"author": "Nicolas",
+			"changelog": "First version"
+		}
+	],
+	"created": "2019-11-18T09:38:46+01:00",
+	"version": "3.1.0"
+}

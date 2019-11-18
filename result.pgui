@@ -1,0 +1,23 @@
+{
+	"elements": [
+		{
+			"id": "",
+			"type": "label",
+			"data": {
+				"value": "paste(\"Version :\", GetLastVersion());",
+				"isr": true,
+				"css": "text-align: center; margin-bottom: 100px",
+				"margintop": "100",
+				"labeltext": "",
+				"labelposition": "hidden",
+				"helptext": "",
+				"helpposition": "bottom",
+				"fontsize": "30",
+				"fontfamily": "default",
+				"fontcolor": "#000000"
+			},
+			"uid": "rpgmgui-10"
+		}
+	],
+	"submitbutton": true
+}

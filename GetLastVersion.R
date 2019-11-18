@@ -11,5 +11,5 @@ GetLastVersion = function(){
     }
 
     # read JSON and value
-    return(fromJSON(file = "project.ppro")$history[[1L]]$version);
+    return(fromJSON(file = ppro[[1L]])$history[[1L]]$version);
 }
